@@ -1,6 +1,6 @@
 {
   "name": "mpubsub",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Built pubsub servers and clients using pure node.js",
   "main": "index.js",
   "scripts": {

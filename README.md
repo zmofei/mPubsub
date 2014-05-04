@@ -1,4 +1,4 @@
-mpubsub
+mPubsub
 =======
 
 Built pubsub servers and clients using pure node.js 
@@ -24,7 +24,6 @@ mPubsub.createServer('127.0.0.1',4455);   //create a server at ip:127.0.0.1 and 
 ### Client side
 Once you start the server , you can connect to the serve and share the pub-sub
 
-#### SUB & UNSUB
 ```javascript
 //connect to the server (IP:127.0.0.1,port:4455);
 mPubsub.connect('127.0.0.1', 4455, function(socket) {
@@ -48,7 +47,7 @@ mPubsub.connect('127.0.0.1', 4455, function(socket) {
     socket.pub('abc', '123asd');
 
     //END
-    socket.end()
+    socket.end();
 
 });
 ``` 
