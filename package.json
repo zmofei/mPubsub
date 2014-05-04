@@ -1,0 +1,24 @@
+{
+  "name": "mpubsub",
+  "version": "0.0.0",
+  "description": "Built pubsub servers and clients using pure node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zmofei/mpubsub.git"
+  },
+  "keywords": [
+    "node",
+    "pubsub",
+    "socket"
+  ],
+  "author": "zmofei <13761509829@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zmofei/mpubsub/issues"
+  },
+  "homepage": "https://github.com/zmofei/mpubsub"
+}
